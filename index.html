@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seerat — Frontend Developer & Designer</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+<div class="logo">Seerat<span>.</span></div>
+<ul id="navLinks">
+<li><a href="#work">WORK</a></li>
+<li><a href="#about">ABOUT</a></li>
+<li><a href="#skills">SKILLS</a></li>
+<li><a href="#contact">CONTACT</a></li>
+</ul>
+<div class="ham" id="ham">☰</div>
+</nav>
+
+<section class="hero">
+<div>
+<div class="eyebrow">GDC BARAMULLA — SAPH IAM TECHNOLOGIES</div>
+<h1>Frontend<br>Developer<br><span>& Designer</span></h1>
+<p>I'm <b>Seerat</b> from <b>SAPH IAM Technologies</b> and <b>GDC Baramulla</b>. I'm a <b>Web Developer</b> who builds clean & premium websites that work beautifully on every device.</p>
+<div class="btns">
+<a href="#work" class="btn-black">View Work →</a>
+<a href="#contact" class="btn-line">Contact Me</a>
+</div>
+</div>
+<div class="hero-right">
+<div class="card" style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+<img src="seerat.jpeg" alt="Seerat" style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; border: 2px solid #111;">
+<h3>Currently at</h3>
+<h2>SAPH IAM<br>TECHNOLOGIES</h2>
+<p>Frontend Developer - Vercel Live Projects - 5th Sem BSc IT</p>
+<a href="https://saphiam-contact-one.vercel.app" target="_blank">Visit Live →</a>
+</div>
+</div>
+</section>
+
+<section id="work" class="section">
+<h2>Selected Work — Live</h2>
+<div class="grid">
+<a href="https://my-amazon-six.vercel.app/" target="_blank" class="work-box"><span>01 / LIVE</span><h3>AMAZON<br>CLONE</h3><p>View Project →</p></a>
+<a href="https://saphiam-contact-one.vercel.app" target="_blank" class="work-box dark"><span>02 / LIVE</span><h3>SAPH IAM<br>CONTACT</h3><p>View Project →</p></a>
+</div>
+</section>
+
+<section id="about" class="section about-section">
+<div class="about-left">
+<h2>About Me</h2>
+<p>Hi, I'm <b>Seerat</b> — a passionate <b>5th Semester BSc IT student</b> at <b>GDC Baramulla</b> and a <b>Frontend Developer & Designer</b> at <b>SAPH IAM Technologies</b>.</p>
+<p>I'm from SAPH IAM Technologies and GDC Baramulla. As a Web Developer, I love to build <b>clean & premium websites</b>. My focus is on minimal design, fast loading, and responsive user experience.</p>
+<p>Currently I am learning advanced Web Development and building live projects on Vercel to become a full-stack developer.</p>
+<div class="about-info">
+<div><b>5th Sem</b><span>BSc IT - GDC Baramulla</span></div>
+<div><b>Frontend</b><span>Developer & Designer</span></div>
+<div><b>SAPH IAM</b><span>Technologies</span></div>
+</div>
+</div>
+<div class="about-right">
+<img src="seerat.jpeg" alt="Seerat">
+</div>
+</section>
+
+<section id="skills" class="section skills-section">
+<h2>My Skills</h2>
+<p class="sub">Technologies I work with daily</p>
+<div class="skills-grid">
+<div class="skill-box"><div class="skill-head"><span>HTML</span><span>90%</span></div><div class="bar"><div style="width:90%"></div></div></div>
+<div class="skill-box"><div class="skill-head"><span>CSS</span><span>85%</span></div><div class="bar"><div style="width:85%"></div></div></div>
+<div class="skill-box"><div class="skill-head"><span>JavaScript</span><span>70%</span></div><div class="bar"><div style="width:70%"></div></div></div>
+<div class="skill-box"><div class="skill-head"><span>Database</span><span>75%</span></div><div class="bar"><div style="width:75%"></div></div></div>
+<div class="skill-box"><div class="skill-head"><span>Excel</span><span>80%</span></div><div class="bar"><div style="width:80%"></div></div></div>
+<div class="skill-box"><div class="skill-head"><span>Vercel / Git</span><span>85%</span></div><div class="bar"><div style="width:85%"></div></div></div>
+</div>
+</section>
+
+<section id="contact" class="section contact">
+<h2>Let's build together.</h2>
+<div class="links">
+<a href="tel:+916005976700">📞 +91 6005976700</a>
+<a href="mailto:seerat3@gmail.com">✉️ seerat3@gmail.com</a>
+</div>
+
+
+<form id="form" action="https://formsubmit.co/seerat3@gmail.com" method="POST" class="big-form">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_subject" value="New message from Seerat Portfolio!">
+<input type="hidden" name="_template" value="table">
+
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<input type="text" name="subject" placeholder="Subject" required>
+<textarea name="message" rows="6" placeholder="Your Message..." required></textarea>
+<button class="btn-black full big-btn" id="submitBtn" type="submit">Send Message</button>
+<p id="msg"></p>
+</form>
+</section>
+
+<footer>© 2026 SEERAT | GDC BARAMULLA | SAPH IAM TECHNOLOGIES</footer>
+<script src="script.js"></script>
+</body>
+</html>
